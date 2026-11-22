@@ -1,0 +1,31 @@
+# Secrets & local environment (keep .env.example!)
+.env
+*.env
+!.env.example
+
+# Auto-generated local databases & vector storage
+*.db
+*.sqlite
+*.sqlite3
+qdrant_data/
+backend/qdrant_data/
+
+# Personal uploaded files (keep empty folder)
+data/documents/*
+!data/documents/.gitkeep
+
+# Python environment & caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Node & frontend builds
+node_modules/
+dist/
+.vite/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
