@@ -37,4 +37,8 @@
               │
               ├──► [ Multi-Format Parser (pypdf / python-docx) + Chunker ]
               ├──► [ Sentence-Transformers (all-MiniLM-L6-v2) ] ──► [ Local Qdrant (./qdrant_data) ]
+<<<<<<< HEAD
               └──► [ Ollama (qwen2.5:3b) ] ──► Grounded Answer + Expandable Sources
+=======
+              └──► [ Ollama (qwen2.5:3b) ] ──► Grounded Answer + Expandable Sources
+>>>>>>> 99942f0e11fac8e82f26a10c0bc31d85dba3bade
